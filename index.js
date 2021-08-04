@@ -53,7 +53,7 @@ $(document).ready(function() {
           $("#text4").fadeTo("slow",0);
           $("#photo4").fadeTo("slow",1);
         });  
-        
+
         $("#col-5").hover(function() {
             $("#text5").fadeTo("slow",1);
             $("#photo5").fadeTo("slow",0.4);
@@ -75,3 +75,19 @@ $(document).ready(function() {
               $("#text7").fadeTo("slow",0);
               $("#photo7").fadeTo("slow",1);
             });
+            
+            $("#col-8").hover(function() {
+                $("#text8").fadeTo("slow",1);
+                $("#photo8").fadeTo("slow",0.4);
+                },function() {
+                  $("#text8").fadeTo("slow",0);
+                  $("#photo8").fadeTo("slow",1);
+                });
+                //Business Logic
+                $("form").submit(function() {
+                  var name= $("input#name").val();
+                  alert("We've received your message "+name+". Thank you for contacting us");
+                  event.preventDefault();
+                });
+            });
+            
