@@ -24,7 +24,7 @@ $(document).ready(function() {
       $("div#prod-content").toggle();
      $("div#product").toggle();
     });
-    
+
     $("#col-1").hover(function() {
         $("#text1").fadeTo("slow",1);
         $("#photo1").fadeTo("slow",0.4);
@@ -53,3 +53,25 @@ $(document).ready(function() {
           $("#text4").fadeTo("slow",0);
           $("#photo4").fadeTo("slow",1);
         });  
+        
+        $("#col-5").hover(function() {
+            $("#text5").fadeTo("slow",1);
+            $("#photo5").fadeTo("slow",0.4);
+            },function() {
+              $("#text5").fadeTo("slow",0);
+              $("#photo5").fadeTo("slow",1);
+            });
+          $("#col-6").hover(function() {
+            $("#text6").fadeTo("slow",1);
+            $("#photo6").fadeTo("slow",0.4);
+            },function() {
+              $("#text6").fadeTo("slow",0);
+              $("#photo6").fadeTo("slow",1);
+            });
+          $("#col-7").hover(function() {
+            $("#text7").fadeTo("slow",1);
+            $("#photo7").fadeTo("slow",0.4);
+            },function() {
+              $("#text7").fadeTo("slow",0);
+              $("#photo7").fadeTo("slow",1);
+            });
