@@ -9,19 +9,19 @@ $(document).ready(function() {
     $("div#design").toggle();
   });
   $("div#dev").click(function() {
-    $("div#dev-content").toggle();
+    $("div#dev-text").toggle();
     $("div#dev").toggle();
   });
-  $("div#dev-content").click(function() {
-    $("div#dev-content").toggle();
+  $("div#dev-text").click(function() {
+    $("div#dev-text").toggle();
     $("div#dev").toggle();
   });
   $("div#product").click(function() {
-    $("div#prod-content").toggle();
+    $("div#prod-text").toggle();
     $("div#product").toggle();
   });
-  $("div#prod-content").click(function() {
-    $("div#prod-content").toggle();
+  $("div#prod-text").click(function() {
+    $("div#prod-text").toggle();
    $("div#product").toggle();
   });
 
